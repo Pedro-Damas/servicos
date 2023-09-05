@@ -1,4 +1,3 @@
-import os
 import streamlit as st
 import numpy as np
 import datetime
@@ -10,7 +9,7 @@ import requests
 repo_owner = 'Pedro-Damas'
 repo_name = 'servicos'
 file_path = 'data_base.csv'
-token = os.environ["token_secret"]
+token = st.secrets["TOKEN_SECRET"]
 commit_message = 'Update CSV file'
 
 st.set_page_config(
