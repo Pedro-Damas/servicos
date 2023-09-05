@@ -1,18 +1,24 @@
-name: python
+name: Run Python Script
 
-on: push
+on:
+  workflow_dispatch:
 
+env:
+  token_secret: ${{secrets.TOKEN_SECRET}}
+  
 jobs:
-  test_env:
-    environment: TEST_SECRET
-    runs-on: ubuntu-latest
+  run-python:
+    runs-on: ubunto-lastest
     steps:
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.8
-        
-    - name: Test env vars for python
-      run: python -c 'import os;print(os.environ)'
-      env:
-        TOKEN_SECRET: ${{ secrets.TOKEN_SECRET }} 
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.14'
+
+      - name: Run Python Script
+        run: |
+          pip install requests
+          python Home.py
