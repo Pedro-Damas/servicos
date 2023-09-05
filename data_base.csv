@@ -1,10 +1,3 @@
-CODIGO UNICO,CLIENTE,SERVIÇO,DESCRIÇÃO,DATA ESTIMADA,HORA ESTIMADA,ETAPA 1,ETAPA 1 TIME,ETAPA 2,ETAPA 2 TIME,ETAPA 3,ETAPA 3 TIME,ETAPA 4,ETAPA 4 TIME,ETAPA 5,ETAPA 5 TIME,STATUS,DATA ABERTURA,DATA FECHAMENTO,IDENTIFICADOR,test_col
-050920238,,,,2023-09-05,13:55:00,False,,False,,False,,False,,False,,True,05/09/2023 13:55,, -  - 050920238,
-144,Hoje,afafa,afasfaf,2023-09-01,11:57:00,False,,False,,False,,False,,False,,True,01/09/2023 11:57,True,Hoje - afafa - 144,new_test_val
-0,0,0,0,2023-08-31,17:16:00,True,31/08/2023 17:18,False,,False,,False,,False,,True,31/08/2023 17:16,True,0 - 0 - 0,new_test_val
-5,Pedro,Pedro,Pedro,2023-08-30,22:31:00,True,,True,,True,,True,,True,,True,30/08/2023 22:31,,Pedro - Pedro - 5,new_test_val
-4,Pedro,Pedro,Pedro,2023-08-30,22:31:00,True,,True,,True,,True,,False,,True,30/08/2023 22:31,,Pedro - Pedro - 4,new_test_val
-3,Pedro,Pedro,Pedro,2023-08-30,22:31:00,True,,True,,True,,False,,False,,True,30/08/2023 22:31,,Pedro - Pedro - 3,new_test_val
-2,Pedro,Pedro,Pedro,2023-08-30,22:30:00,True,,True,30/08/2023 22:31,False,,False,,False,,False,30/08/2023 22:31,04/09/2023 13:31,Pedro - Pedro - 2,new_test_val
-1,Pedro,Pedro,Pedro,2023-08-30,22:30:00,True,,False,,False,,False,,False,,True,30/08/2023 22:30,,Pedro - Pedro - 1,new_test_val
-123134,Pedro H.,Fabricação,adhjahduiehfiuabcbadubuhdbhbskabakuefialgfIUGFIUBC,2023-08-30,00:15:00,True,30/08/2023 22:32,True,30/08/2023 22:10,True,30/08/2023 22:10,True,30/08/2023 22:10,True,30/08/2023 22:10,False,2023-08-30 18:54:51.227550,False,Pedro H. - Fabricação - 123134,new_test_val
+CODIGO UNICO,CLIENTE,SERVIÇO,DESCRIÇÃO,DATA ESTIMADA,HORA ESTIMADA,ETAPA 1,ETAPA 1 TIME,ETAPA 2,ETAPA 2 TIME,ETAPA 3,ETAPA 3 TIME,ETAPA 4,ETAPA 4 TIME,ETAPA 5,ETAPA 5 TIME,STATUS,DATA ABERTURA,DATA FECHAMENTO,IDENTIFICADOR
+050920231,,,,2023-09-05,18:39:00,False,,False,,False,,False,,False,,True,05/09/2023 18:40,, -  - 050920231
+TE040920238,TESTE,TESTE,TESTE,2023-09-04,20:31:00,False,,False,,False,,False,,False,,True,04/09/2023 20:31,,TESTE - TESTE - TE040920238
