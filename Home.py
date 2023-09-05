@@ -9,7 +9,7 @@ import requests
 repo_owner = 'Pedro-Damas'
 repo_name = 'servicos'
 file_path = 'data_base.csv'
-token = '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'
+token = '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.jdsdk_ncjdoaRB'
 commit_message = 'Update CSV file'
 
 st.set_page_config(
